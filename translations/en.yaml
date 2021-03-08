@@ -1,0 +1,5 @@
+configuration:
+  retention:
+    name: Retention
+    description: Defines the retention in __months__ to store data. Use `5d` to define a retention in days.
+    

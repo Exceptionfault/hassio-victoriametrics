@@ -1,0 +1,4 @@
+configuration:
+  retention:
+    name: Retention
+    description: Definiert die Dauer in Monaten zur Aufbewahrung von Daten. Mit `5d` kann die Dauer auch in Tagen angegeben werden.
