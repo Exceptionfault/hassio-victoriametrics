@@ -1,0 +1,23 @@
+{
+  "name": "Victoria Metrics",
+  "version": "1.0.3",
+  "slug": "victoria_metrics",
+  "stage": "experimental",
+  "description": "Local Victoria Metrics TSDB as replacement for Prometheus or InfluxDB",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "startup": "application",
+  "boot": "auto",
+  "ingress": true,
+  "ingress_port": 8428,
+  "host_network": true,
+  "options": {
+    "retention": "3"
+  },
+  "schema": {
+    "retention": "str"
+  },
+  "webui": "http://[HOST]:[PORT:8428]/",
+  "ports": {
+    "8428/tcp": 8428
+  }
+}
