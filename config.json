@@ -1,6 +1,6 @@
 {
   "name": "Victoria Metrics",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "slug": "victoria_metrics",
   "stage": "experimental",
   "description": "Local Victoria Metrics TSDB as replacement for Prometheus or InfluxDB",
